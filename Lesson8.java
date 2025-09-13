@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Lesson8 {
+public class Lesson8 { //// this is not lesson 8
     public static void main(String[] args) {
 
-        // 1. int, enum, String are valid switch types
+        // 1. int, enum, String are valid switch types //// not enum, answer: char
 
         // 2. Switch trace
         int x = 3, p = 5, y = -8;
@@ -42,8 +42,8 @@ public class Lesson8 {
         char chr = 'z';
         //6
         int xx = 10, yy = 12;
-        System.out.println("The sum is " + xx + yy);
-        System.out.println("The sum is " + (xx + yy));
+        System.out.println("The sum is " + xx + yy); //// you need to comment your answer, answer: sum is 1012
+        System.out.println("The sum is " + (xx + yy)); //// answer: sum is 22
 
         //7 Fixed: declare and read speed before switch
         System.out.print("Enter the speed: ");
